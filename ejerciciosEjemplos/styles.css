@@ -1,0 +1,16 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+.libro {
+  text-align: center;
+  color: rgb(130, 161, 243);
+}
+.lenguaje {
+  text-align: center;
+  color: yellowgreen;
+}
+.document {
+  text-align: center;
+  color: violet;
+}
