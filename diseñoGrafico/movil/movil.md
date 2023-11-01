@@ -1,4 +1,4 @@
-![SitioWEB](principal.svg)
+![SitioWE](principal.svg)
 
 ![SitioWEB](2.svg)
 
