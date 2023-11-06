@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.izq {
+    display: flex;
+    background-color: black;
+    height: 40px;
+
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.der {
+    display: flex;
+    margin-left: 400px;
+    background-color: black;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elementos {
+    margin-right: 10px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover {
+    color: orange;
+  }
+  
+
+.primero {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+img#carro {
+    width: 30px;
+
+}
+
+img#icono {
+    width: 50px;
+    height: 50px;
+
+}
+
+.segundoNav {
+    display: flex;
+    background-color: #dfe3ee;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.segundo {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+.elementos2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.unir {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    
+}
+.fondo{
+    background-color: #dfe3ee;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+img#lupa {
+    width: 20px;
+   
+
+}
+
+input {
+    border-radius: 5px;
+}
+
+.cuerpo {
+    display: flex;
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img#moviles {
+    width: 600px;
+}
+
+.cuerpoCompleto {
+    background-color: #dfe3ee;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+pre {
+    line-height: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pInicial{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.precio {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+    text-decoration-color: black;
+    color: gray;
+}
+
+.boton {
+    width: 180px;
+    height: 25px;
+    background-color: #dfe3ee;
+   color: gray;
+   border: 2px solid gray;
+   cursor: pointer;
+}
+
+.contenedor {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+img#movil {
+    width: 200px;
+    height: 150px;
+}
+.item-parafo{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 15px;
+
+}
+
+.item1 {
+    background-color: #f0e6e4;
+    width: 30%;
+    text-align: center;
+
+}
+
+.item2 {
+    text-align: center;
+    background-color: #dcdfe4;
+    width: 30%;
+}
+
+.item3 {
+    text-align: center;
+    background-color: #f0e6e4;
+    width: 30%;
+}
+.ultimaParte{
+    
+    background-color: #56a48e;
+    height: 120px;
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 1%;
+    color: aliceblue;
+
+   
+   
+}
+
+.final {
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+
+img#escudo {
+    width: 170px;
+    height: 120px;
+}
+
+.letras {
+   
+    margin-left: 6%;
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fecha {
+    line-height: 0.1;
+    white-space: pre;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.letra {
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 0.1;
+    white-space: pre;
+   
+}
+
+.letraFina {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 0.1;
+    white-space: pre;
+   
+}
+
+.botonFinal {
+    margin-left: 30%;
+    display: flex;
+    margin-top: 10%;
+    width: 280px;
+    height: 60px;
+    background-color: #56a48e;
+    align-content: space-around;
+    justify-content: center;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botonFinal:hover{
+    background-color: black;
+   
+}
+.boton:hover{
+    background-color: black;
+}
