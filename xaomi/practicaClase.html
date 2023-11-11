@@ -1,121 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="practicaClase.css">
+    <link rel="stylesheet" href="practicaClase.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="contenedorTop">
+        <nav class="primerMenu">
+          <ul>
+            <li><a href="https://www.betisweb.com/foro/">XIAOMI ESPAÑA</a></li>
+            <li><a href="https://www.betisweb.com/foro/">MI COMUNITY</a></li>
+            <li>
+              <a href="https://www.betisweb.com/foro/"
+                >DESCARGAR MI STORE APP</a
+              >
+            </li>
+            <li>
+              <a class="sinBorde" href="https://www.betisweb.com/foro/"
+                >LOCALIZADOR DE TIENDAS</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <nav class="primerMenu">
+          <ul>
+            <li><a href="https://www.betisweb.com/foro/">CONECTAR</a></li>
+            <li><a href="https://www.betisweb.com/foro/">REGISTRARSE</a></li>
+            <i class="fas fa-shopping-cart" style="color: #ffffff"></i>
+            <li>
+              <a class="sinBorde" href="https://www.betisweb.com/foro/"
+                >CARRITO (0)</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="segundoContenedor">
+        <img id="icono" src="icono.png" />
+        <nav class="segundoMenu">
+          <ul>
+            <li><a href="https://www.betisweb.com/foro/">Télefonos Mi</a></li>
+            <li>
+              <a href="https://www.betisweb.com/foro/">Télefonos Redmi</a>
+            </li>
+            <li><a href="https://www.betisweb.com/foro/">Pocophone</a></li>
+            <li>
+              <a href="https://www.betisweb.com/foro/"
+                >Dispositivos inteligentes</a
+              >
+            </li>
+            <li><a href="https://www.betisweb.com/foro/">Mi TV</a></li>
+            <li><a href="https://www.betisweb.com/foro/">Todo</a></li>
+            <li><a href="https://www.betisweb.com/foro/">Explorar</a></li>
+            <li>
+              <input type="text" placeholder="Buscar productos" /><a
+                href="https://www.betisweb.com/foro/"
+                ><i class="fas fa-search" style="color: #000000"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="cuerpoCompleto">
+      <pre><span class="titulo">XIAOMI</span>   <span class="subtitulo">11 LITE 5G<sup>NE</sup></span>
+<span class="subtitulo2">Del 18/10 a las 13:00</span>
+
+[6+128GB] ¡Precio especial por solo 48 horas!
+
+[8+128GB] Regalo: Mi Smart Band 6 valorada en 44.99€
 
 
-</head>
+<span class="precio1">Desde 299,99 € </span><span class="precio">Desde 369,99€</span> 
 
-<body>
-    <nav>
+ <input type="button" onclick="otraPagina()" id="botonR" class="boton" value="Entrar">
+            </pre>
 
-        <div class="izq">
-
-            <div class="elementos"><a class="primero" href="https://www.betisweb.com/foro/">XIAOMI ESPAÑA</a></div>
-            <div class="elementos"><span>|</span></div>
-            <div class="elementos"><a class="primero" href="https://www.betisweb.com/foro/">MI COMUNITY</a></div>
-            <div class="elementos"><span>|</span></div>
-            <div class="elementos"><a class="primero" href="https://www.betisweb.com/foro/">DESCARGAR MI STORE APP</a>
-            </div>
-            <div class="elementos"><span>|</span></div>
-            <div class="elementos"><a class="primero" href="https://www.betisweb.com/foro/">LOCALIZADOR DE TIENDAS</a>
-            </div>
-
-            <div class="der">
-                <div class="elementos"><a class="primero" href="https://www.betisweb.com/foro/">CONECTAR</a></div>
-                <div class="elementos"><span>|</span></div>
-                <div class="elementos"><a class="primero" href="https://www.betisweb.com/foro/">REGISTRARSE</a></div>
-                <div class="elementos"><span>|</span></div>
-                <img id="carro" src="carrito.png">
-                <div class="elementos"><a class="primero" href="https://www.betisweb.com/foro/">CARRITO (0)</a></div>
-
-            </div>
-        </div>
-    </nav>
-    <div class="segundoNav">
-        <img id="icono" src="icono.png">
-        <div class="elementos2"><a class="segundo" href="https://www.betisweb.com/foro/">Télefonos Mi</a></div>
-        <div class="elementos2"><a class="segundo" href="https://www.betisweb.com/foro/">Télefonos Redmi</a></div>
-        <div class="elementos2"><a class="segundo" href="https://www.betisweb.com/foro/">Pocophone</a></div>
-        <div class="elementos2"><a class="segundo" href="https://www.betisweb.com/foro/">Dispositivos inteligentes</a>
-        </div>
-        <div class="elementos2"><a class="segundo" href="https://www.betisweb.com/foro/">Mi TV</a></div>
-        <div class="elementos2"><a class="segundo" href="https://www.betisweb.com/foro/">Todo</a></div>
-        <div class="elementos2"><a class="segundo" href="https://www.betisweb.com/foro/">Explorar</a></div>
-        <div class="unir"><input class="fondo" type="text" placeholder="Buscar productos"><a
-                href="https://www.betisweb.com/foro/"><img id="lupa" src="lupa.png"></a></div>
-
-
-    </div>
-    <section>
-        <div class="cuerpoCompleto">
-            <div class="cuerpo">
-                <pre><h1>XIAOMI 11 LITE 5G ne</h1>
-        <h4>Del 18/10 a las 13:00</h4>
-        <p class="pInicial">[6+128GB] ¡Precio especial por solo 48 hotas!</p>
-        <p class="pInicial">[8+128GB] Regalo: Mi Smart Band 6 valorada en 44.99</p>
-        <h5>Desde 299,99 €  <span class="precio">Desde 369,99€</span> </h5>
-        <p><input type="button" onclick="location.href='https://www.betisweb.com/foro/'" class="boton" value="Entrar"></p>
-    
-    </pre>
-
-                <div class="imagen">
-                    <img id="moviles" src="moviles.png">
-                </div>
-
-            </div>
-        </div>
+      <div class="imagen">
+        <img id="moviles" src="moviles (2).png" />
+      </div>
     </section>
     <section>
-        <div class="contenedor">
-
-            <div class="item1">
-                <h2>Xiaomi 11 Lite 5G NE</h2>
-                <p class="item-parafo">Diseño ligero | Elegante y liso</p>
-                <p class="item-parafo">Desde 369,99€</p>
-                <img id="movil" src="movil.png" alt="móviles" />
-            </div>
-            <div class="item2">
-                <h2>Xiaomi 11 Lite 5G NE</h2>
-                <p class="item-parafo">Diseño ligero | Elegante y liso</p>
-                <p class="item-parafo">Desde 369,99€</p>
-                <img id="movil" src="movil.png" alt="móviles" />
-            </div>
-            <div class="item3">
-                <h2>Xiaomi 11 Lite 5G NE</h2>
-                <p class="item-parafo">Diseño ligero | Elegante y liso</p>
-                <p class="item-parafo">Desde 369,99€</p>
-                <img id="movil" src="movil.png" alt="móviles" />
-            </div>
+      <div class="contenedor">
+        <div class="item1">
+          <h2>Xiaomi 11 Lite 5G NE</h2>
+          <p class="item-parafo">Diseño ligero | Elegante y liso</p>
+          <p class="item-parafo">Desde 369,99€</p>
+          <img id="movil" src="movil.png" alt="móviles" />
         </div>
-
+        <div class="item2">
+          <h2>Xiaomi 11 Lite 5G NE</h2>
+          <p class="item-parafo">Diseño ligero | Elegante y liso</p>
+          <p class="item-parafo">Desde 369,99€</p>
+          <img id="movil" src="movil.png" alt="móviles" />
+        </div>
+        <div class="item3">
+          <h2>Xiaomi 11 Lite 5G NE</h2>
+          <p class="item-parafo">Diseño ligero | Elegante y liso</p>
+          <p class="item-parafo">Desde 369,99€</p>
+          <img id="movil" src="movil.png" alt="móviles" />
+        </div>
+      </div>
     </section>
     <section class="ultimaParte">
-        <div class="final">
-
-            <img id="escudo" src="final.png">
-            <div class="letras">
-                <p class="fecha">09.29-10.31</p>
-                <p class="letra">MES DE SERVICIO CON MI PROTECTECT</p>
-                <p class="letraFina">¡Compra tu Xiaomi teléfono y tu seguro Mi Protect y</p>
-                <p class="letraFina">obtén un cupón Xiaomi de 30€!</p>
-            </div>
-            <div>
-                <input type="button" class="botonFinal" onclick="location.href='https://www.betisweb.com/foro/'"
-                    value="COMPRAR AHORA">
-            </div>
-
-        </div>
-
-
-
+      <img id="escudo" src="final.png" />
+      <pre>
+09.29-10.31
+<span>MES DE SERVICIO CON MI PROTECTECT</span>
+¡Compra tu Xiaomi teléfono y tu seguro Mi Protect y
+obtén un cupón Xiaomi de 30€!
+</pre>
+      <input
+        type="button"
+        id="botonFinal"
+        class="botonFinal"
+        onclick="otraPagina()"
+        value="COMPRAR AHORA"
+      />
     </section>
 
-
-
-</body>
-
+    <script type="text/javascript" src="practicaClase.js"></script>
+  </body>
 </html>
