@@ -13,6 +13,12 @@ margin: 0%;
     margin: 1em;
  
 }
+.unir::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+   content: "\f25a"; 
+   color: blue;
+}
 .primeraParte{
     
     flex-direction: row;
