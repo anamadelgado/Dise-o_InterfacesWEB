@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #eaeded;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  background-color: #d4e6f1;
+}
+.container button {
+  padding: 1em;
+  position: relative;
+  left: 40%;
+  top: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: #d2b4de;
+}
+.cuadrado {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  background-color: #d2b4de;
+}
+.resultado {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+}
+
+.resultado button {
+  border: none;
+  margin-top: 1em;
+  height: 8vh;
+  cursor: pointer;
+  background-color: #abebc6;
+}

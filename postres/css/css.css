@@ -1,0 +1,25 @@
+.centro {
+  display: flex;
+  align-items: center;
+  width: 75%;
+
+  font-size: 2em;
+}
+.titulo {
+  font-weight: bold;
+  font-size: 2em;
+}
+.descripcion {
+  margin: 3%;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 1em;
+
+  justify-content: center;
+}
+.fa-star {
+  font-size: 2em;
+}

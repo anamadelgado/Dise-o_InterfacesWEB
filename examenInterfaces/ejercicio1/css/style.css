@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Fjalla+One&family=Open+Sans:wght@300&family=Oswald&family=Roboto+Condensed:wght@200&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: #212530;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.menuCompleto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menuTop {
+  font-size: 2em;
+  width: 8em;
+  display: flex;
+  height: 3em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuTop a {
+  color: white;
+}
+.menuTop:hover {
+  background-color: #575760;
+}
+.menuTop a:hover {
+  background-color: #575760;
+}
+a#id1 {
+  text-decoration-color: #a9aaf9;
+}
+a#id2 {
+  text-decoration: none;
+}
+.segundaParte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.titulo {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.correo {
+  margin-top: 1em;
+}
+.correo input {
+  margin-top: 1em;
+  width: 32em;
+  height: 4em;
+  background-color: white;
+}
+
+.iniciar {
+  margin-top: 2em;
+  font-size: 1em;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.iniciar input {
+  width: 15em;
+  height: 4em;
+  color: white;
+  background-color: #53536e;
+  font-size: 1em;
+  border: none;
+}
+.iniciar a {
+  margin-left: 1em;
+  margin-top: 1em;
+  color: #a9aaf9;
+}
+.ultimaParte {
+  color: white;
+  margin-top: 2em;
+}
+.ultimaParte p {
+  margin-bottom: 1em;
+}
+
+.google {
+  background-color: white;
+  display: flex;
+  height: 2em;
+  width: 21em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.facebook {
+  height: 2em;
+  width: 21em;
+  background-color: #1877f2;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+  display: flex;
+}
+.facebook input {
+  background-color: #1877f2;
+  color: white;
+}
+.facebook img {
+  background-color: #1877f2;
+  width: 2em;
+  height: 2em;
+}
+
+.google input {
+  background-color: white;
+}
+.google img {
+  background-color: white;
+  width: 2em;
+  height: 2em;
+}
+.ultimaParte input {
+  border: none;
+}

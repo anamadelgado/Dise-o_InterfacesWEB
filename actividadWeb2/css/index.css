@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #ededed;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em; 
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container h1{
+    color: #0074d4; 
+    margin-bottom: 1.5em;  
+}
+.container1 input{
+    border: none;
+   
+    border-bottom:1px solid #909090;
+}
+#email{
+    margin-bottom: 1.5em;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 13px;
+    display: inline-flex;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    width: 70%;
+}
+.boton1{
+    width: 100%;
+    border-radius: 13px;
+    background-color: #ededed;
+    border: none;
+    height: 4vh;
+    margin-bottom: 1em;
+}
+.container2 p{
+    width: 100%;
+   font-size: 13px;
+   margin-top: 3px;
+
+}
+.container2 a{
+    color: #000000;
+}
+.boton2{
+    width: 100%;
+    margin-top: 1.5em;
+    display: inline-flex;
+    align-items: center;
+    background-color: #0074d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 5vh;
+}
+.boton2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}

@@ -5,10 +5,70 @@
 .contenedorTop {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid black;
+  height: 2em;
   align-items: center;
+  margin: 1em;
+}
+.unir::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f25a";
+  color: blue;
 }
 .primeraParte {
+  flex-direction: row;
+}
+.primeraParte li {
   list-style: none;
+}
+.primero {
+  font-weight: bold;
+}
+.segundo {
+  font-size: smaller;
+  color: gainsboro;
+}
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.imagenLogo {
+  width: 2em;
+  height: 2em;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.main p {
+  margin-bottom: 2em;
+}
+.main input {
+  border: none;
+  width: 26em;
+}
+.unir {
+  border: 1px solid gainsboro;
+  border-radius: 1em;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.main a {
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+.ultimo {
+  margin-top: 1em;
+  width: 26em;
+}
+.pre1 {
+  margin-top: 1em;
+  width: 25em;
+  text-align: center;
 }
